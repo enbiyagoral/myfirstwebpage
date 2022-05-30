@@ -1,0 +1,87 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap'); */
+
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: #1e1e1e;
+
+}
+
+
+.container{
+    width: 100vw; height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gotham Narrow';
+    line-height: 1.7;
+
+
+}
+
+.card{
+    width: 400px; height: 500px;
+    background-color: rgb(104, 154, 255);
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    transition: background-color 10s,transform 5s;
+}
+
+.card:hover{
+    background-color: #fcd812;
+}
+
+/* .profil{
+    /* width: 80px; height: 80px; */
+    /* border-radius: 50%; */
+    /* background-color: #1e1e1e; */
+    /* margin-top: 15%; 
+} */
+
+.profil-img{
+    width: 80px; height: 80px;
+    border-radius: 50%;
+    margin-top: 1em;
+    margin-bottom:  1em;
+    border: 2px solid #1e1e1e;
+}
+
+.profil-img:hover{
+    color: white;
+}
+.description{
+    color: #1e1e1e;
+    padding: 1em;
+    margin-bottom: 2em;
+    font-size: 16px;
+    transition: color 1s;
+    
+}
+
+.description:hover{
+    color: rgb(255, 255, 255);
+}
+
+.social-media-link{
+    
+    color:#1e1e1e;
+    text-decoration: none;
+    transition: color 1s;
+    /* width: 15px; height:15px ; */
+}
+
+.social-media-link:hover{
+    color: rgb(255, 255, 255);
+}
+
+.fa-brands{
+    width: 25px; height: 25px;
+}
